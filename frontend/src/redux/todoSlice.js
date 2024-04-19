@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 const proxyUrl = "https://thingproxy.freeboard.io/fetch/";
 const apiUrl = "https://be-todo-h20h.onrender.com/api/tasks";
-const url = proxyUrl + apiUrl;
+const url = apiUrl;
 
 // const URI = "https://be-todo-h20h.onrender.com/api/tasks";
 
